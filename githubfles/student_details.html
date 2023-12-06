@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="contain">
+        <header>
+          <div class="header"> 
+            <img src="logo1.png" width="100%" height="150px">
+          </div>
+        </header>
+        <nav>
+          <table>
+          <div class="navbar">
+            <tr>
+            <td> <a href="index.html">HOME</a> </td>
+            <td> <a href="student_details.html">STUDENT DETAILS</a> </td>
+            <td><a href="result.php"> RESULTS</a></td>
+            <td> <a href="attendence.php">ATTENDENCE </a> </td>
+            <td> <a href="login.php">TEACHER </a> </td>
+            <td> <a href="about.html"> ABOUT</a> </td>
+            <td> <a href="midresult.php"> MID RESULTS</a> </td>
+            </tr>
+              </div>
+            </div> 
+          </div>
+        </table>
+        </nav>
+        <div class="marquee"> <marquee bgcolor="light green" width="100%" loop="-1" scrollamount="10" > <font color="white" face="Times New Roman"> ENTER YOUR DETAILS CORRECTLY </font>  </marquee> </div>
+        <div class="date">  <script>    
+          var d= new Date();
+          d.getFullYear();
+          d.getHours();
+          document.write(d);
+          </script></div>
+        <article>
+            <div class="container">
+                    <form action="newuser.php" method="post">
+                      <center>
+                      <table border="1" class="ta">
+                        <tr>
+                       <td> Hallticket No: </td> <td><input type="text" name="n1" placeholder="enter Hallticket number" required> </td> </tr>
+                       <tr> <td> Student Name:</td> <td> <input type="text" name="n2" placeholder="Enter Your name" required> </td> </tr>
+                       <tr> <td> GROUP : </td><td> <input type="text" name="n3" placeholder="Enter your group" required> </td> </tr>
+                        <tr> <td>Passing Year :</td> <td> <input type="text" name="n4" placeholder="Enter 2021-2024 format" required> </td> </tr>
+                        <tr> <th colspan="2" class="button"><button> SUBMIT</button> </th  > </tr>
+                      </tr>
+                    </table>
+                      </center>
+                    </form>
+             
+            </div>
+        </article>
+        <div class="hh" id="#navbar.html">
+
+        </div>
+    </body>
+</html>

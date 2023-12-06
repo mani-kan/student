@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .button{
+background-color: black;
+color: azure;
+}
+.button:hover{
+background-color: red;
+color: azure;
+}
+</style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header"> 
+                    <img src="logo1.png" width="100%" height="150px">
+                  </div>
+            </header>
+            <nav>
+              <table>
+              <div class="navbar">
+                <tr>
+                <td> <a href="creation.html">HOME</a> </td>
+                <td><a href="update.html"> RESULTS UPDATE</a></td>
+                <td> <a href="newresult.html">NEW RESULTS </a> </td>
+                <td> <a href="atupdate.html">ATTENDENCE UPDATE </a> </td>
+                <td> <a href="newatten.html"> NEW ATTENDENCE </a> </td>
+                <td> <a href="midupdate.html"> MID UPDATE</a> </td>
+                <td> <a href="subjects.html"> NEW</a></td>
+                </tr>
+                  </div>
+                </div> 
+              </div>
+            </table>
+            </nav>
+            <div class="marquee"> <marquee bgcolor="light green" width="100%" loop="-1" scrollamount="10" > <font color="white" face="Times New Roman"> ENTER NEW STUDENTS FOR ATTENDENCE PURPOSE</font>  </marquee> </div>
+            <div class="date">  <script>    
+              var d= new Date();
+              d.getFullYear();
+              d.getHours();
+              document.write(d);
+              </script></div>
+            <article>
+                <center>
+                    <table border="1">
+        <form action="newatten.php" method="post">
+            <tr> <td>Admition_No: </td> <td> <input type="text" name="n1" required placeholder="Enter Admition_No"></td></tr>
+            <tr> <td>Name: </td> <td> <input type="text" name="n2" required placeholder="Enter Name"></td></tr>
+            <tr> <td>Roll_No: </td> <td> <input type="text" name="n3" required placeholder="Enter Roll_No"></td></tr>
+            <tr> <td>Branch: </td> <td> <input type="text" name="n4" required placeholder="Enter Branch"></td></tr>
+            <tr> <td>Passing-Year: </td> <td> <input type="text" name="n5" required placeholder="Enter Year Like 201-2024"></td></tr>
+            <tr> <td>ATTENDENCE: </td> <td> <input type="text" name="n6" required placeholder="Enter ATTENDENCE"> </td></tr>
+            <tr> <th colspan="2"><button class="button"> SUBMIT </button> </th> </tr>
+        </table>
+        </center>
+            </article>
+        </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    background-color: azure;
+}
+header h2{
+text-align: center;
+word-spacing: 7px;
+background-image:linear-gradient(rgb(255, 0, 149),yellow);
+border: 2px solid burlywood;
+border-radius: 3px;
+border-spacing: 2px;
+margin: auto;
+padding: 20px;
+}
+footer{
+text-align: center;
+background-image:linear-gradient(rgb(214, 114, 0),rgb(255, 0, 149));
+padding: 1px;
+clear: both;
+}
+article{
+    align-content: center;
+    padding: 23px;
+}
+.hh{
+    padding: auto;
+    margin: 15%;
+}
+
+nav table{
+  background-color: black;
+  width: 100%;
+}
+nav table tr td a{
+  color: azure;
+  float:left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  overflow: hidden;
+}
+nav table tr td a:hover{
+background-color: red;
+}
+nav table tr td button{
+  background-color: black;
+  color: azure;
+}
+nav table tr td  button:hover{
+  background-color: red;
+  color: azure;
+}
+.button button{
+  background-color: black;
+  color: azure;
+}
+.button button:hover{
+  background-color: red;
+  color: azure;
+}
